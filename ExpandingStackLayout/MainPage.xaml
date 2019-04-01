@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ExpandingStackLayout" x:Class="ExpandingStackLayout.MainPage">
+    <StackLayout x:Name="SwitchingSL" Orientation="Vertical">
+        
+        
+        <!-- Place new controls here -->
+        <Button x:Name="BTN" Clicked="Handle_Clicked" Text="Apply" HorizontalOptions="Center" />
+    
+        <Label x:Name="LBL" HorizontalOptions="Center" BackgroundColor="#FAFAFA" Text="Blah&#x0a;Blah&#x0a;Blah&#x0a;Blah">
+            
+        </Label>
+        
+        
+    </StackLayout>
+</ContentPage>
